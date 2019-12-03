@@ -28,6 +28,7 @@ gem 'devise'
 gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'sprockets-rails', '2.3.3'
+gem 'stripe'
 gem 'twitter-bootstrap-rails'
 
 
