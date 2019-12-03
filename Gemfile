@@ -23,10 +23,13 @@ gem 'jbuilder', '~> 2.7'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'carrierwave'
 gem 'devise'
 gem 'devise-bootstrap-views'
+gem 'fog'
 gem 'jquery-rails'
+gem 'mini_magick'
+gem 'pcloud-storage'
 gem 'sprockets-rails', '2.3.3'
 gem 'stripe'
 gem 'twitter-bootstrap-rails'
