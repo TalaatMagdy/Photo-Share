@@ -55,6 +55,7 @@
 </div>
 <%= render 'devise/shared/links' %>
 
-<script language="Javascript">
+<script language="Javascript" src="https://checkout.stripe.com/checkout.js">
+
     Stripe.setPublishableKey("<%= ENV['STRIPE_TEST_PUBLISHABLE_KEY'] %>");
 </script>
